@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Dot.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+    <div class="container">
+        <h1>Day <span style="color: green;">Dot.</span></h1>
+        
+        <div class="controls">
+            <button class="btn tick" id="tickBtn" disabled>✔ Tick</button>
+            <button class="btn" id="crossBtn" disabled>✖ Cross</button>
+        </div>
+
+        <div class="heatmap-wrapper">
+            <div class="heatmap" id="heatmap"></div>
+        </div>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
